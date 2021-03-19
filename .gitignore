@@ -1,1 +1,12 @@
+.log
+.vscode/
 
+# For Latex
+.aux
+.bbl
+.bcf
+.blg
+.fls
+.out
+.pytxcode
+.run.xml
