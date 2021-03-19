@@ -1,0 +1,59 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+
+%images
+\usepackage{graphicx}       %for inserting images
+\graphicspath{{../outputs/}}
+\graphicspath{./}    %image file directory
+\usepackage{wrapfig}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mwe}
+\usepackage{listings} %for python code display
+\usepackage{hyperref}	%hyperlink insertion
+\usepackage{caption}	%caption
+
+\captionsetup{
+	font=small,
+	labelfont=bf,
+	tableposition=top
+}
+\usepackage{subcaption}	%for subfigures
+\usepackage{geometry}
+\geometry{margin = 0.7in}
+
+%headers and footers
+% All page numbers positioned at the bottom of the page
+\usepackage{fancyhdr}
+\fancyhf{} % clear all header and footers
+\fancyfoot[C]{\thepage}
+\fancyhead[R]{A. Thieshanthan, 180641N}   %header
+\fancyhead[L]{\textbf{EN2550}}
+\fancyhead[C]{Assignment A04}
+\renewcommand{\headrulewidth}{1.5pt} % remove the header rule
+\pagestyle{fancy}
+
+%for inserting columns
+\usepackage{multicol}       
+\setlength{\columnsep}{1cm}
+
+\usepackage{fancyvrb}
+\usepackage{color}
+
+\usepackage[backend = biber, style = ieee]{biblatex}
+\addbibresource{reference.bib}
+
+%opening
+\title{Assignment A04: Neural Networks}
+\author{A. Thieshanthan, 180641N}
+
+\begin{document}
+	
+	\maketitle
+	
+	\begin{abstract}
+		
+	\end{abstract}
+
+	\section{Linear Classifier}
+\end{document}
